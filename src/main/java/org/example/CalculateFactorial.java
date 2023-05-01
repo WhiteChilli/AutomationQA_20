@@ -10,9 +10,6 @@ public class CalculateFactorial {
         try {
             System.out.print("Calculate factorial number of: ");
             numberEntered = userInput.nextInt();
-        } catch (NullPointerException e) {
-            System.out.println("Error:" + e.getMessage());
-            userInput.nextLine();
         } catch (ArithmeticException e) {
             System.out.println("Error:" + e.getMessage());
             userInput.nextLine();
